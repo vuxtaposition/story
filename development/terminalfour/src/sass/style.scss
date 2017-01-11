@@ -1,0 +1,56 @@
+@import "bootstrap-sass/bootstrap";
+
+
+// COLORS
+$limeColor: #C6E198;
+$orangeColor: #f89e33;
+$redColor: #e5405c;
+
+
+
+
+// New Breakpoint Variables
+$smallTablet-size: 768px;
+$largeTablet-size: 980px;
+$desktop-size: 1300px;
+
+@mixin media($media) {
+  @if $media == smallTablet {
+    @media (min-width:$smallTablet-size) { @content; }
+  }
+  @else if $media == largeTablet {
+    @media(min-width:$largeTablet-size) { @content; }
+  }
+  @else if $media == desktop {
+    @media (min-width:$desktop-size) { @content; }
+  }
+}
+
+
+//FONTS
+@font-face { font-family: Carolinea; src: url('../fonts/Carolinea/OTF/Carolinea.otf'); }
+/*
+font-face {
+  font-family: 'Carolinea';
+  src: url('../fonts/Carolinea/OTF/Carolinea.otf');
+  src: url('../fonts/Carolinea/WebFont/Carolinea.eot') format("embedded-opentype"), url('../fonts/Carolinea/WebFont/Carolinea.woff') format("woff"), url('../fonts/Carolinea/WebFont/Carolinea.svg') format("svg"),url('../fonts/Carolinea/TFF/Carolinea.ttf') format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+*/
+@font-face { font-family: Sunrise International; src: url('../fonts/sunrise/Sunrise International.otf'); }
+@font-face { font-family: CocogoosePro-Letterpress; src: url('../fonts/cocogoosse/CocogoosePro-Letterpress.ttf'); }
+
+
+@import "fonts-variables";
+@import "jumbotron-home";
+@import "marketing";
+@import "dashed";
+@import "image-containers";
+@import "downloadPoster";
+@import "buttons";
+@import "form";
+@import "col-widths";
+@import "winner-trophy";
+@import "footer";
+@import "nav";
+@import "final-changes";

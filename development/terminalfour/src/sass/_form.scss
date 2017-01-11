@@ -1,0 +1,191 @@
+.formIcon{
+
+    width: 30%;
+    margin-top: 10px; 
+
+
+    @include media(smalltablet) {         
+              width: 20%;
+          margin-top: 10px; 
+    }
+    @include media(largeTablet) {
+          width: 20%;
+          margin-top: 10px;
+    }
+    
+    @include media(desktop) {
+        width:100%;
+        margin-top:60px;
+    }     
+
+
+}
+
+.formIcon1{
+
+    width: 30%;
+    margin-top: 10px; 
+
+    @include media(smalltablet) {         
+            width: 20%;
+            margin-top: 10px; 
+    }
+    @include media(largeTablet) {
+           width: 15%;
+           margin-top: 10px; 
+    }
+    
+    @include media(desktop) {
+           width:90%;
+           margin-top:30px;
+    }  
+}
+.readyToSubmit {
+  text-align: center;
+  a {
+    float: none;
+    clear: both;
+    @include media(smalltablet) {
+      float: left;
+    }
+    @include media(largeTablet) {
+      float: left;
+    }
+    @include media(desktop) {
+      float: left;
+    }
+  }
+  img {
+    height: 135px;
+    width: 295px;
+    @include media(smalltablet) {
+      height: 135px;
+      width: 295px;
+    }
+    @include media(largeTablet) {
+      height: 135px;
+      width: 295px;
+      float: left;
+    }
+    @include media(desktop) {
+      width: 50%;
+      float: left;
+    }
+  }
+}
+.requiredText{
+  float: left;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.innerRed {
+
+  background: $redColor;
+  border-radius: 10px;
+  margin-top:0;
+  clear:both;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+  @include media(smalltablet) {
+    clear: both;
+    margin-top: 90px;
+
+  }
+  @include media(largeTablet) {
+    clear: both;
+    margin-top: 90px;
+    clear:none;
+  }
+  @include media(desktop) {
+    background: $redColor;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    margin-top:0;
+    clear:none;
+  }
+  p {
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    @include media(smalltablet) {
+      padding: 10px;
+      color: white;
+    }
+    @include media(largeTablet) {
+      padding: 10px;
+      color: white;
+    }
+  }
+}
+
+#submitForm input{
+  background: lightgray;
+  border-radius: 0px;
+  color: black;
+  float:left;
+  width:95%;
+  height:30px;
+}
+#submitForm .form-group label{
+  font-size:14px;
+}
+.reqred{
+  float:left;
+  margin-left:10px;
+  color:red;
+  font-size:20px;
+  font-weight:bold;
+}
+.form-group{
+  padding-bottom: 25px;
+}
+.form-group .upload button {
+    background:yellow;
+}
+.spacer{
+ width: 100%;
+ height:100px;
+ margin-bottom:50px;
+
+}
+
+.submitButton{
+  height:70px;
+  color: #fff;
+  background-color: black;
+  border-color: black;
+  border-radius: 0px;
+  margin-top: 36px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  clear: both;
+  width: 70%;
+  font-size:28px;
+}
+.g-recaptcha {
+  margin-top:100px;
+}
+#replaceSteps {
+  display: block;
+  width: 100%;
+  @include media(smalltablet) {
+    display: block;
+    width: 100%;
+  }
+  @include media(desktop) {
+    display: none;
+  }
+}
+.topNotice {
+  margin-top: 50px;
+  @include media(smalltablet) {
+    margin-top: -20px;
+  }
+  @include media(largeTablet) {
+    margin-top: -20px;
+  }
+}

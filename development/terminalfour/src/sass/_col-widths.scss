@@ -1,0 +1,104 @@
+.bg-1{
+       background:none;
+
+    @include media(smalltablet) {         
+             background:none;
+    }
+      @include media(largeTablet) {
+             background:none;
+    }
+    
+    @include media(desktop) {
+           // background-image:url('/style-assets/images/background-final.png') ;
+           // background-size: 100%;
+           // background-repeat:no-repeat;
+    } 
+}
+.bg-2{
+       background:none;
+
+    @include media(smalltablet) {         
+             background:none;
+    }
+      @include media(largeTablet) {
+             background:none;
+    }
+    
+    @include media(desktop) {
+           // background-image:url('/style-assets/images/background-final.png') ;
+           // background-size: 100%;
+          //  background-repeat:no-repeat;
+          //  background-position: 0% 40%;
+    } 
+}
+.bg-3{
+       background:none;
+
+    @include media(smalltablet) {         
+             background:none;
+    }
+      @include media(largeTablet) {
+             background:none;
+    }
+    
+    @include media(desktop) {
+           // background-image:url('/style-assets/images/background-final.png') ;
+           // background-size: 100%;
+          //  background-repeat:no-repeat;
+            //background-position: 0% 90%;
+    } 
+}
+
+.bg-4{
+       background:none;
+
+    @include media(smalltablet) {         
+             background:none;
+    }
+      @include media(largeTablet) {
+             background:none;
+    }
+    
+    @include media(desktop) {
+            //background-image:url('/style-assets/images/background-final.png') ;
+            //background-size: 100%;
+           // background-repeat:no-repeat;
+           // background-position: 0% 10%;
+    } 
+}
+
+.bg-form{
+       background:none;
+
+    @include media(smalltablet) {         
+             background:none;
+    }
+      @include media(largeTablet) {
+             background:none;
+    }
+    
+    @include media(desktop) {
+             // background-image:url('/style-assets/images/background-final.png') ;
+            //  background-size: 100%;
+             // background-repeat:no-repeat;
+            //  background-position: 0% 70%; 
+    } 
+}
+
+
+
+// REMOVE ABOVE ME
+
+.main-content {
+  @include media(desktop) {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}

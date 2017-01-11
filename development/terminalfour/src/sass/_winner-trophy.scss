@@ -1,0 +1,79 @@
+.tropphy-text {
+  p {
+    color: $redColor;
+    font-family: 'Carolinea';
+    font-size: 46px !important;
+    line-height: 46px;
+    text-align: center;
+  }
+}
+.winner {
+  clear: both;
+  text-align: center;
+  @include media(smallTablet) {
+    clear: both;
+    text-align: center;
+  }
+  @include media(largeTablet) {
+    clear: both;
+    text-align: center;
+  }
+  @include media(desktop) {
+    text-align: center;
+  }
+  img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+}
+.winnerbook {
+  text-align: center;
+  @include media(smallTablet) {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  @include media(largeTablet) {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  @include media(desktop) {
+    text-align: left;
+  }
+  img {
+    width: 30%;
+    @include media(smallTablet) {
+      width: 10%
+    }
+    @include media(largeTablet) {
+      width: 10%;
+    }
+    @include media(desktop) {
+      width: 60%;
+    }
+  }
+}
+.closing-date {
+  color: $redColor;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: normal;
+  font-family: helvetica;
+  float: none;
+  @include media(smallTablet) {
+    float: none;
+  }
+  @include media(largeTablet) {
+    width: 100%
+  }
+  @include media(desktop) {
+    width: 100%;
+  }
+}
+.bottomBox {
+  p {
+    text-align: justify;
+    font-size: 14px;
+  }
+}

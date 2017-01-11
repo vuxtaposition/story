@@ -1,0 +1,28 @@
+.mar-top {
+    margin-top: none;
+    @include media(smalltablet) {
+        margin-top: 90px;
+    }
+    @include media(largeTablet) {
+        margin-top: 90px;
+    }
+    @include media(desktop) {
+        margin-top: 90px;
+    }
+}
+.step-images {
+    img {
+        max-width: 81px;
+        max-height: 93px;
+        @include media(smalltablet) {} max-width: 152px;
+        max-height: 175px;
+        @include media(largeTablet) {
+            max-width: 152px;
+            max-height: 175px;
+        }
+        @include media(desktop) {
+            max-width: 152px;
+            max-height: 175px;
+        }
+    }
+}

@@ -1,0 +1,165 @@
+.centered {
+    text-align: center;
+    @include media(smallTablet) {
+        text-align: left;
+    }
+    @include media(largeTablet) {
+        text-align: left;
+    }
+    @include media(desktop) {
+        text-align: left;
+    }
+}
+.image-container {
+    margin: 0 auto !important;
+    float: none;
+    @include media(smallTablet) {
+        margin: 0 auto !important;
+        float: none;
+        text-align: center;
+    }
+    @include media(largeTablet) {
+        margin: 0 auto !important;
+        float: none;
+        height: 100px;
+        text-align: center;
+    }
+    @include media(desktop) {
+        padding-top: 30px;
+        text-align: center;
+    }
+}
+.image-containers {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    @include media(smallTablet) {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: block;
+        float: left
+    }
+    @include media(largeTablet) {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: block;
+        float: left
+    }
+    @include media(desktop) {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: block;
+        float: left;
+    }
+    img {
+        width: 90%;
+        @include media(smallTablet) {
+            width: 50%;
+        }
+        @include media(largeTablet) {
+            width: 60%;
+        }
+        @include media(desktop) {
+            width: 90%;
+        }
+    }
+}
+.image-container2 {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    @include media(smallTablet) {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: block;
+        float: left
+    }
+    @include media(largeTablet) {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: block;
+        float: left
+    }
+    @include media(desktop) {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: block;
+        float: left;
+    }
+    img {
+        width: 85%;
+        @include media(smallTablet) {
+            width: 45%;
+        }
+        @include media(largeTablet) {
+            width: 55%;
+        }
+        @include media(desktop) {
+            width: 80%;
+        }
+    }
+}
+.image-container3 {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    @include media(smallTablet) {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: block;
+        float: left
+    }
+    @include media(largeTablet) {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: block;
+        float: left
+    }
+    @include media(desktop) {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: block;
+        float: left;
+    }
+    img {
+        width: 85%;
+        @include media(smallTablet) {
+            width: 45%;
+        }
+        @include media(largeTablet) {
+            width: 55%;
+        }
+        @include media(desktop) {
+            width: 80%;
+        }
+    }
+}
+
+.video-head {	
+	width:100%;
+	text-align:center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'CocogoosePro-Letterpress';
+
+
+        @include media(largeTablet) {
+		text-align:left;
+        }
+        @include media(desktop) {
+		text-align:left;
+        }
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   @@include('head.html', {"pageTitle": "Submit"})
+  <script src="style-assets/js/jquery.validation.js"></script>
+  <script src="style-assets/js/additional-methods.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+<script>
+
+$(function() {
+
+  $("form[name='submitForm']").validate({
+    rules: {
+   
+      leadname: { 
+        lettersonly: true, 
+        required: true
+      },
+      teachersname:{ 
+        lettersonly: true, 
+        required: true
+      },
+      email: {
+        required: true,
+
+        email: true
+      },
+      county: { 
+        lettersonly: true, 
+        required: true
+      },
+      schoolname: { 
+        lettersonly: true, 
+        required: true
+      },
+      video:"required"
+    },
+
+    messages: {
+      leadname: {
+            required: "Please enter your lead name",
+            lettersonly: "Can only be letters"
+          },
+      teachersname: {
+            required: "Please enter your teachers name",
+            lettersonly: "Can only be letters"
+          },
+      schoolname: {
+            required: "Please enter your school name",
+            lettersonly: "Can only be letters"
+          },
+      county: {
+            required: "Please enter your county name",
+            lettersonly: "Can only be letters"
+          },
+      email: {
+            required: "Please enter your lead name",
+            email: "Can only be a valid email address"
+          },
+      video:"please select a video to upload"
+    },
+
+    submitHandler: function(form) {
+      form.submit();
+    }
+  });
+});
+</script>
+</head>
+<body>
+  <div class="container">
+    @@include('nav-inner.html')
+
+<main class="main-content">   
+  <article class="row marketing bg-1">
+    <div class="col-xs-12 dashed">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>READY TO SUBMIT? LET’S DO THIS!</h2>
+        </div>
+        <div class="image-container step-images">
+         <!--  <img alt="step one step two and step three" id="replaceSteps" src="style-assets/images/replace-steps.png"> -->
+          <div class="col-lg-4 image-containers">
+          <a href="#first"><img alt="first prize" src="style-assets/images/home/step1big.png"></a></div>
+          <div class="col-lg-4 image-container2">
+          <a href="#second"><img alt="second prize" src="style-assets/images/home/step2big.png"></a></div>
+          <div class="col-lg-4 image-container3">
+          <a href="#third"><img alt="third prize" src="style-assets/images/home/step3big.png"></a></div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+    
+  
+    <article class="row marketing bg-form">
+    <div class="col-xs-12 dashed">
+      <div class="row">
+        <div class="col-xs-12">
+
+           <form action="thankyou.html" id="submitForm" method="get" name="submitForm">
+           <span class="pull-right topNotice"><span class="reqred">* &nbsp;</span>&nbsp;Required fields</span>
+             <div class="col-xs-12 dashed">
+             <a name="first"></a>
+              <div class="col-lg-3"><img alt="first prize" class="formIcon" src="style-assets/images/home/step1big.png"></div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                  <span class="reqred">*</span>&nbsp; <label for="leadname">Name of applicant or Lead name if it’s team:</label> <input class="form-control" id="leadname" name="leadname" placeholder="Enter name" type="text">
+                </div>
+                <div class="form-group">
+                  <span class="reqred">*</span>&nbsp; <label for="teachersname">Teachers name:</label> <input class="form-control" id="teachersname" name="teachersname" placeholder="Enter Teachers name" type="text">
+                </div>
+                <div class="form-group">
+                  <span class="reqred">*</span>&nbsp; <label for="schoolname">School name:</label> <input class="form-control" id="schoolname" name="schoolname" placeholder="Enter schools name" type="text">
+                </div>
+                <div class="form-group">
+                  <span class="reqred">*</span>&nbsp; <label for="county">County:</label> <input class="form-control" id="county" name="county" placeholder="Enter your county" type="text">
+                </div>
+                <div class="form-group">
+                  <span class="reqred">*</span>&nbsp; <label for="email">E-mail Address:</label> <input class="form-control" id="email" name="email" placeholder="Enter your email" type="email">
+                </div>
+              </div>
+              <div class="row dashed spacer"></div>
+              
+              <div class="col-lg-3"><img alt="second prize" class="formIcon1" src="style-assets/images/home/step2big.png"></div>
+              <div class="col-lg-9">
+              <a name="second"></a>
+                <div class="form-group">
+                  <span class="reqred">*</span>&nbsp; <label for="video" >Upload Video</label> <input accept="image/*" class="upload" name="video" id="video" type="file">
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LdMpA8UAAAAAB8GjnAxusQMybIj7mxwP92Gt8yM"></div>
+              </div>
+            </div>
+           
+             <div class="col-xs-12 borderBox">
+              <div class="col-lg-3"><img alt="third prize" class="formIcon1" src="style-assets/images/home/step3big.png"></div>
+              <div class="col-lg-9">
+              <a name="third"></a>
+                <button class="btn submitButton" type="submit">SEND!</button>
+              </div>
+            </div>
+          </form>
+
+         </div>
+        </div>
+       </div>
+    </article>
+ </main>
+  @@include('footer.html')
+
+</body>
+</html>

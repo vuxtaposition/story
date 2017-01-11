@@ -1,0 +1,27 @@
+Carolinea
+----------------------------------------------------------------------------
+Carolinea is a hand lettered script fonts, using brush & ink combines a style brush calligraphy, irregular baseline, a rough edges, bold and organic. 
+Carolinea features 235+ glyphs and 63 alternate characters. including initial and terminal letters, ornament, ligatures and multiple language support.
+
+Files included: 
+- Carolinea.otf 
+- Carolinea.ttf
+- Web Fonts (eot, svg, woff)
+
+Can be used for various purposes such as logos, wedding invitation, t-shirt, signage, businnes card, lable, posters, magazines, cover book, greeting cards etc. 
+To enable the OpenType Stylistic alternates, you need a program that supports OpenType features such as Adobe Illustrator CS, Adobe Indesign & CorelDraw X6-X7.
+
+How to get access alternate glyphs from open type fonts: 
+
+- http://youtu.be/iptSFA7feQ0
+
+There are additional ways to access alternates/swashes, using Character Map (Windows), Nexus Font (Windows), Font Book (Mac) or 
+a software program such as PopChar (for Windows and Mac).
+
+How to access all alternative characters, using Windows Character Map with Photoshop:
+
+- https://www.youtube.com/watch?v=Go9vacoYmBw
+
+Need help? you need help or advice, please contact me by e-mail"seniorsstudio@gmail.com"
+
+Thank you!

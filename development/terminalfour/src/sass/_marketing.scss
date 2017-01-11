@@ -1,0 +1,66 @@
+.marketing {
+    margin: 1rem 0;
+    margin-bottom: 0px;
+    h1 {
+        font-family: 'CocogoosePro-Letterpress';
+        font-size: 46px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: normal;
+
+        @include media(smallTablet) {
+            text-align: left;
+            font-size:61px;
+            font-weight:normal;
+        }
+        @include media(largeTablet) {
+            text-align: left;
+            font-size:61px;
+            font-weight:normal;           
+        }
+        @include media(desktop) {
+            text-align: left;
+            font-size:61px;
+            font-weight:normal;
+        }
+    }
+    h2 {
+        font-family: 'CocogoosePro-Letterpress';
+        font-size: 36px;
+        text-transform: uppercase;
+        width: 100%;
+        text-align: center;
+        font-weight: normal;
+        @include media(smallTablet) {
+            text-align: left;
+        }
+        @include media(largeTablet) {
+            text-align: left;
+        }
+        @include media(desktop) {
+            text-align: left;
+        }
+    }
+    h3 {
+        font-family: 'CocogoosePro-Letterpress';
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: normal;
+        @include media(smallTablet) {
+            text-align: left;
+        }
+        @include media(largeTablet) {
+            text-align: left;
+        }
+        @include media(desktop) {
+            text-align: left;
+        }
+    }
+}
+.marketing p + h4 {
+    margin-top: 1.5rem;
+}
+.thankyou-box {
+    height:420px;
+}

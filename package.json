@@ -1,0 +1,20 @@
+{
+  "warning": "",
+  "clientName": "EPA",
+  "projectName": "Story of your stuff",
+  "description": "Designs for Story of your stuff site for EPA Ireland",
+  "developer": "Alan Leonard (T4)",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-express": "latest",
+    "grunt-include-replace": "latest",
+    "grunt-express": "^1.4.1",
+    "jquery-validation": "^1.16.0"
+  }
+}

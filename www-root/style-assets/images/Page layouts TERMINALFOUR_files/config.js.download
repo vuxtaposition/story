@@ -1,0 +1,73 @@
+requirejs.config({
+  deps: ['../../src/main'],
+  baseUrl:'../skin/ui-production/assets/js',
+  waitSeconds: 0,
+  paths:{
+    module:'../../../../skin/ui-production/src/modules',
+    helper:'../../../../skin/ui-production/src/helper',
+    bootstrap:'./bootstrap.min',
+    moment:'./moment-with-locales',
+    tinymce:'../../assets/js/tinymce4/tinymce',
+    tinymceTheme:'../../assets/js/tinymce4/themes/modern/theme',
+    Handlebars: '../../assets/js/handlebars',
+    codeMirror: '../../assets/js/codemirror-4.4'
+  },
+  hbars:{
+    extension: '.hbs'
+  },
+  shim: {
+    Handlebars: { exports: 'Handlebars'},
+    backbone: {deps: ['underscore', 'jquery'], exports: 'Backbone'},
+    underscore: { exports: '_'},
+    'backbone.stickit': ['underscore', 'jquery', 'backbone'],
+    'backbone-nested': ['underscore', 'jquery', 'backbone'],
+    'backbone.localStorage': ['underscore', 'jquery', 'backbone'],
+    bootstrap: {
+      deps: [ 'jquery', 'jquery.ui' ],
+      exports: 'bootstrap'
+    },
+    tinymce: {
+      exports: 'tinyMCE',
+      init: function () {
+        this.tinyMCE.DOM.events.domLoaded = true;
+        return this.tinyMCE;
+      }
+    },
+    tinymceTheme: ['tinymce'],
+    'backbone.validation': ['backbone'],
+    'backbone.terminalfour': {
+      deps: [
+        'backbone',
+        'backbone.validation.bootstrap'
+      ]
+    },
+    'backbone.validation.bootstrap': ['backbone.validation'],
+    'bootstrap.editable':{ deps:['bootstrap', 'jquery'] },
+    'bootstrap-tokenfield': {
+      deps: [
+        'jquery.ui'
+      ]
+    },
+    ace: {
+      exports: 'ace',
+      deps: ['bootstrap', 'jquery']
+    },
+    'ace.extra': { deps: ['ace', 'bootstrap'] },
+    'ace.elements': { deps: ['ace', 'bootstrap'] },
+    'jquery.flot': ['jquery'],
+    'jquery.flot.time': ['jquery.flot'],
+    'jquery.flot.selection': ['jquery.flot'],
+    'jquery.flot.resize': ['jquery.flot'],
+    'jquery.gritter': ['jquery'],
+    'jquery.dataTables':{ deps: ['jquery'] },
+    'jquery.dataTables.bootstrap':{ deps: ['jquery.dataTables', 'bootstrap']},
+    select2:{ deps: ['jquery'] },
+    'fuelux.spinner': { deps:['ace.elements', 'bootstrap']},
+    'fuelux.wizard': { deps:['ace.elements', 'bootstrap']},
+    'nv.d3' : {deps: ['d3']},
+    'wysiwyg.modals' : {deps: ['jquery']},
+    merge: {
+      deps: [ 'diff_match_patch' ]
+    }
+  }
+});

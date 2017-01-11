@@ -1,0 +1,502 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose readDependencies loading dependencies from /Users/alanleonard/Documents/work/EPA/finish/package.json
+5 warn package.json @0.1.0 No repository field.
+6 warn package.json @0.1.0 No license field.
+7 verbose install where, deps [ '/Users/alanleonard/Documents/work/EPA/finish',
+7 verbose install   [ 'grunt',
+7 verbose install     'grunt-bower-task',
+7 verbose install     'grunt-contrib-copy',
+7 verbose install     'grunt-contrib-sass',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-express',
+7 verbose install     'grunt-include-replace',
+7 verbose install     'jquery-validation' ] ]
+8 verbose install where, peers [ '/Users/alanleonard/Documents/work/EPA/finish', [] ]
+9 verbose installManyTop reading for lifecycle /Users/alanleonard/Documents/work/EPA/finish/package.json
+10 info preinstall @0.1.0
+11 verbose installManyTop reading scoped package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt/package.json
+12 verbose installManyTop reading scoped package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-bower-task/package.json
+13 verbose installManyTop reading scoped package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-contrib-copy/package.json
+14 verbose installManyTop reading scoped package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-contrib-sass/package.json
+15 verbose installManyTop reading scoped package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-contrib-uglify/package.json
+16 verbose installManyTop reading scoped package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-contrib-watch/package.json
+17 verbose installManyTop reading scoped package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-express/package.json
+18 verbose installManyTop reading scoped package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-include-replace/package.json
+19 verbose installManyTop reading scoped package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/jquery-validation/package.json
+20 info package.json grunt-bower-task@0.4.0 No license field.
+21 info package.json grunt-express@1.4.1 No license field.
+22 verbose readDependencies loading dependencies from /Users/alanleonard/Documents/work/EPA/finish/package.json
+23 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt/package.json
+24 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-bower-task/package.json
+25 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-contrib-copy/package.json
+26 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-contrib-sass/package.json
+27 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-contrib-uglify/package.json
+28 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-contrib-watch/package.json
+29 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-express/package.json
+30 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/grunt-include-replace/package.json
+31 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/jquery-validation/package.json
+32 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/.bin/grunt/package.json
+33 verbose targetResolver reading package data from /Users/alanleonard/Documents/work/EPA/finish/node_modules/.bin/grunt.cmd/package.json
+34 silly cache add args [ 'grunt-contrib-uglify@latest', null ]
+35 verbose cache add spec grunt-contrib-uglify@latest
+36 silly cache add args [ 'grunt-contrib-watch@latest', null ]
+37 verbose cache add spec grunt-contrib-watch@latest
+38 verbose already installed skipping grunt-express@^1.4.1 /Users/alanleonard/Documents/work/EPA/finish
+39 silly cache add args [ 'grunt-include-replace@latest', null ]
+40 verbose cache add spec grunt-include-replace@latest
+41 verbose already installed skipping jquery-validation@^1.16.0 /Users/alanleonard/Documents/work/EPA/finish
+42 verbose already installed skipping grunt@^1.0.1 /Users/alanleonard/Documents/work/EPA/finish
+43 silly cache add args [ 'grunt-bower-task@latest', null ]
+44 verbose cache add spec grunt-bower-task@latest
+45 silly cache add args [ 'grunt-contrib-copy@latest', null ]
+46 verbose cache add spec grunt-contrib-copy@latest
+47 silly cache add parsed spec Result {
+47 silly cache add   raw: 'grunt-contrib-uglify@latest',
+47 silly cache add   scope: null,
+47 silly cache add   name: 'grunt-contrib-uglify',
+47 silly cache add   rawSpec: 'latest',
+47 silly cache add   spec: 'latest',
+47 silly cache add   type: 'tag' }
+48 silly addNamed grunt-contrib-uglify@latest
+49 verbose addNamed "latest" is being treated as a dist-tag for grunt-contrib-uglify
+50 info addNameTag [ 'grunt-contrib-uglify', 'latest' ]
+51 silly mapToRegistry name grunt-contrib-uglify
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry data Result {
+54 silly mapToRegistry   raw: 'grunt-contrib-uglify',
+54 silly mapToRegistry   scope: null,
+54 silly mapToRegistry   name: 'grunt-contrib-uglify',
+54 silly mapToRegistry   rawSpec: '',
+54 silly mapToRegistry   spec: 'latest',
+54 silly mapToRegistry   type: 'tag' }
+55 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+56 verbose addNameTag registry:https://registry.npmjs.org/grunt-contrib-uglify not in flight; fetching
+57 silly cache add parsed spec Result {
+57 silly cache add   raw: 'grunt-contrib-watch@latest',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'grunt-contrib-watch',
+57 silly cache add   rawSpec: 'latest',
+57 silly cache add   spec: 'latest',
+57 silly cache add   type: 'tag' }
+58 silly addNamed grunt-contrib-watch@latest
+59 verbose addNamed "latest" is being treated as a dist-tag for grunt-contrib-watch
+60 info addNameTag [ 'grunt-contrib-watch', 'latest' ]
+61 silly mapToRegistry name grunt-contrib-watch
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'grunt-contrib-watch',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   name: 'grunt-contrib-watch',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+66 verbose addNameTag registry:https://registry.npmjs.org/grunt-contrib-watch not in flight; fetching
+67 silly cache add parsed spec Result {
+67 silly cache add   raw: 'grunt-include-replace@latest',
+67 silly cache add   scope: null,
+67 silly cache add   name: 'grunt-include-replace',
+67 silly cache add   rawSpec: 'latest',
+67 silly cache add   spec: 'latest',
+67 silly cache add   type: 'tag' }
+68 silly addNamed grunt-include-replace@latest
+69 verbose addNamed "latest" is being treated as a dist-tag for grunt-include-replace
+70 info addNameTag [ 'grunt-include-replace', 'latest' ]
+71 silly mapToRegistry name grunt-include-replace
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry data Result {
+74 silly mapToRegistry   raw: 'grunt-include-replace',
+74 silly mapToRegistry   scope: null,
+74 silly mapToRegistry   name: 'grunt-include-replace',
+74 silly mapToRegistry   rawSpec: '',
+74 silly mapToRegistry   spec: 'latest',
+74 silly mapToRegistry   type: 'tag' }
+75 silly mapToRegistry uri https://registry.npmjs.org/grunt-include-replace
+76 verbose addNameTag registry:https://registry.npmjs.org/grunt-include-replace not in flight; fetching
+77 silly cache add parsed spec Result {
+77 silly cache add   raw: 'grunt-bower-task@latest',
+77 silly cache add   scope: null,
+77 silly cache add   name: 'grunt-bower-task',
+77 silly cache add   rawSpec: 'latest',
+77 silly cache add   spec: 'latest',
+77 silly cache add   type: 'tag' }
+78 silly addNamed grunt-bower-task@latest
+79 verbose addNamed "latest" is being treated as a dist-tag for grunt-bower-task
+80 info addNameTag [ 'grunt-bower-task', 'latest' ]
+81 silly mapToRegistry name grunt-bower-task
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry data Result {
+84 silly mapToRegistry   raw: 'grunt-bower-task',
+84 silly mapToRegistry   scope: null,
+84 silly mapToRegistry   name: 'grunt-bower-task',
+84 silly mapToRegistry   rawSpec: '',
+84 silly mapToRegistry   spec: 'latest',
+84 silly mapToRegistry   type: 'tag' }
+85 silly mapToRegistry uri https://registry.npmjs.org/grunt-bower-task
+86 verbose addNameTag registry:https://registry.npmjs.org/grunt-bower-task not in flight; fetching
+87 silly cache add parsed spec Result {
+87 silly cache add   raw: 'grunt-contrib-copy@latest',
+87 silly cache add   scope: null,
+87 silly cache add   name: 'grunt-contrib-copy',
+87 silly cache add   rawSpec: 'latest',
+87 silly cache add   spec: 'latest',
+87 silly cache add   type: 'tag' }
+88 silly addNamed grunt-contrib-copy@latest
+89 verbose addNamed "latest" is being treated as a dist-tag for grunt-contrib-copy
+90 info addNameTag [ 'grunt-contrib-copy', 'latest' ]
+91 silly mapToRegistry name grunt-contrib-copy
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'grunt-contrib-copy',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   name: 'grunt-contrib-copy',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-copy
+96 verbose addNameTag registry:https://registry.npmjs.org/grunt-contrib-copy not in flight; fetching
+97 silly cache add args [ 'grunt-contrib-sass@latest', null ]
+98 verbose cache add spec grunt-contrib-sass@latest
+99 silly cache add parsed spec Result {
+99 silly cache add   raw: 'grunt-contrib-sass@latest',
+99 silly cache add   scope: null,
+99 silly cache add   name: 'grunt-contrib-sass',
+99 silly cache add   rawSpec: 'latest',
+99 silly cache add   spec: 'latest',
+99 silly cache add   type: 'tag' }
+100 silly addNamed grunt-contrib-sass@latest
+101 verbose addNamed "latest" is being treated as a dist-tag for grunt-contrib-sass
+102 info addNameTag [ 'grunt-contrib-sass', 'latest' ]
+103 silly mapToRegistry name grunt-contrib-sass
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'grunt-contrib-sass',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   name: 'grunt-contrib-sass',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-sass
+108 verbose addNameTag registry:https://registry.npmjs.org/grunt-contrib-sass not in flight; fetching
+109 verbose request uri https://registry.npmjs.org/grunt-contrib-uglify
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 8:59:53 PM
+112 verbose request id 248db8c7cfebae75
+113 verbose etag W/"585993b8-155d4"
+114 verbose lastModified Tue, 20 Dec 2016 20:25:28 GMT
+115 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+116 verbose request uri https://registry.npmjs.org/grunt-include-replace
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 8:59:53 PM
+119 verbose etag W/"57f68248-a0c1"
+120 verbose lastModified Thu, 06 Oct 2016 16:56:40 GMT
+121 http request GET https://registry.npmjs.org/grunt-include-replace
+122 verbose request uri https://registry.npmjs.org/grunt-contrib-watch
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 8:59:53 PM
+125 verbose etag W/"58667965-fb6c"
+126 verbose lastModified Fri, 30 Dec 2016 15:12:37 GMT
+127 http request GET https://registry.npmjs.org/grunt-contrib-watch
+128 verbose request uri https://registry.npmjs.org/grunt-bower-task
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 8:59:53 PM
+131 verbose etag W/"583ec451-68cc"
+132 verbose lastModified Wed, 30 Nov 2016 12:21:37 GMT
+133 http request GET https://registry.npmjs.org/grunt-bower-task
+134 verbose request uri https://registry.npmjs.org/grunt-contrib-copy
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 8:59:53 PM
+137 verbose etag W/"5823a0c1-9cc3"
+138 verbose lastModified Wed, 09 Nov 2016 22:18:41 GMT
+139 http request GET https://registry.npmjs.org/grunt-contrib-copy
+140 verbose request uri https://registry.npmjs.org/grunt-contrib-sass
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 8:59:53 PM
+143 verbose etag W/"5854b89e-bc9e"
+144 verbose lastModified Sat, 17 Dec 2016 04:01:34 GMT
+145 http request GET https://registry.npmjs.org/grunt-contrib-sass
+146 http 304 https://registry.npmjs.org/grunt-contrib-copy
+147 verbose headers { date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+147 verbose headers   via: '1.1 varnish',
+147 verbose headers   'cache-control': 'max-age=300',
+147 verbose headers   etag: 'W/"5823a0c1-9cc3"',
+147 verbose headers   age: '170',
+147 verbose headers   connection: 'keep-alive',
+147 verbose headers   'x-served-by': 'cache-lhr6347-LHR',
+147 verbose headers   'x-cache': 'HIT',
+147 verbose headers   'x-cache-hits': '2',
+147 verbose headers   'x-timer': 'S1484168392.665268,VS0,VE0',
+147 verbose headers   vary: 'Accept-Encoding' }
+148 silly get cb [ 304,
+148 silly get   { date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+148 silly get     via: '1.1 varnish',
+148 silly get     'cache-control': 'max-age=300',
+148 silly get     etag: 'W/"5823a0c1-9cc3"',
+148 silly get     age: '170',
+148 silly get     connection: 'keep-alive',
+148 silly get     'x-served-by': 'cache-lhr6347-LHR',
+148 silly get     'x-cache': 'HIT',
+148 silly get     'x-cache-hits': '2',
+148 silly get     'x-timer': 'S1484168392.665268,VS0,VE0',
+148 silly get     vary: 'Accept-Encoding' } ]
+149 verbose etag https://registry.npmjs.org/grunt-contrib-copy from cache
+150 verbose get saving grunt-contrib-copy to /Users/alanleonard/.npm/registry.npmjs.org/grunt-contrib-copy/.cache.json
+151 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+152 http 200 https://registry.npmjs.org/grunt-contrib-uglify
+153 verbose headers { server: 'nginx/1.10.1',
+153 verbose headers   'content-type': 'application/json',
+153 verbose headers   'last-modified': 'Wed, 11 Jan 2017 07:07:39 GMT',
+153 verbose headers   etag: 'W/"5875d9bb-155ec"',
+153 verbose headers   'content-encoding': 'gzip',
+153 verbose headers   'cache-control': 'max-age=300',
+153 verbose headers   'content-length': '12412',
+153 verbose headers   'accept-ranges': 'bytes',
+153 verbose headers   date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+153 verbose headers   via: '1.1 varnish',
+153 verbose headers   age: '110',
+153 verbose headers   connection: 'keep-alive',
+153 verbose headers   'x-served-by': 'cache-lhr6321-LHR',
+153 verbose headers   'x-cache': 'HIT',
+153 verbose headers   'x-cache-hits': '1',
+153 verbose headers   'x-timer': 'S1484168392.650610,VS0,VE0',
+153 verbose headers   vary: 'Accept-Encoding' }
+154 silly get cb [ 200,
+154 silly get   { server: 'nginx/1.10.1',
+154 silly get     'content-type': 'application/json',
+154 silly get     'last-modified': 'Wed, 11 Jan 2017 07:07:39 GMT',
+154 silly get     etag: 'W/"5875d9bb-155ec"',
+154 silly get     'content-encoding': 'gzip',
+154 silly get     'cache-control': 'max-age=300',
+154 silly get     'content-length': '12412',
+154 silly get     'accept-ranges': 'bytes',
+154 silly get     date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     age: '110',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-lhr6321-LHR',
+154 silly get     'x-cache': 'HIT',
+154 silly get     'x-cache-hits': '1',
+154 silly get     'x-timer': 'S1484168392.650610,VS0,VE0',
+154 silly get     vary: 'Accept-Encoding' } ]
+155 verbose get saving grunt-contrib-uglify to /Users/alanleonard/.npm/registry.npmjs.org/grunt-contrib-uglify/.cache.json
+156 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+157 http 304 https://registry.npmjs.org/grunt-include-replace
+158 verbose headers { date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+158 verbose headers   via: '1.1 varnish',
+158 verbose headers   'cache-control': 'max-age=300',
+158 verbose headers   etag: 'W/"57f68248-a0c1"',
+158 verbose headers   age: '109',
+158 verbose headers   connection: 'keep-alive',
+158 verbose headers   'x-served-by': 'cache-lhr6320-LHR',
+158 verbose headers   'x-cache': 'HIT',
+158 verbose headers   'x-cache-hits': '1',
+158 verbose headers   'x-timer': 'S1484168392.667428,VS0,VE6',
+158 verbose headers   vary: 'Accept-Encoding' }
+159 silly get cb [ 304,
+159 silly get   { date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+159 silly get     via: '1.1 varnish',
+159 silly get     'cache-control': 'max-age=300',
+159 silly get     etag: 'W/"57f68248-a0c1"',
+159 silly get     age: '109',
+159 silly get     connection: 'keep-alive',
+159 silly get     'x-served-by': 'cache-lhr6320-LHR',
+159 silly get     'x-cache': 'HIT',
+159 silly get     'x-cache-hits': '1',
+159 silly get     'x-timer': 'S1484168392.667428,VS0,VE6',
+159 silly get     vary: 'Accept-Encoding' } ]
+160 verbose etag https://registry.npmjs.org/grunt-include-replace from cache
+161 verbose get saving grunt-include-replace to /Users/alanleonard/.npm/registry.npmjs.org/grunt-include-replace/.cache.json
+162 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+163 http 304 https://registry.npmjs.org/grunt-contrib-sass
+164 verbose headers { date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+164 verbose headers   via: '1.1 varnish',
+164 verbose headers   'cache-control': 'max-age=300',
+164 verbose headers   etag: 'W/"5854b89e-bc9e"',
+164 verbose headers   age: '52',
+164 verbose headers   connection: 'keep-alive',
+164 verbose headers   'x-served-by': 'cache-lhr6345-LHR',
+164 verbose headers   'x-cache': 'HIT',
+164 verbose headers   'x-cache-hits': '1',
+164 verbose headers   'x-timer': 'S1484168392.673871,VS0,VE0',
+164 verbose headers   vary: 'Accept-Encoding' }
+165 silly get cb [ 304,
+165 silly get   { date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+165 silly get     via: '1.1 varnish',
+165 silly get     'cache-control': 'max-age=300',
+165 silly get     etag: 'W/"5854b89e-bc9e"',
+165 silly get     age: '52',
+165 silly get     connection: 'keep-alive',
+165 silly get     'x-served-by': 'cache-lhr6345-LHR',
+165 silly get     'x-cache': 'HIT',
+165 silly get     'x-cache-hits': '1',
+165 silly get     'x-timer': 'S1484168392.673871,VS0,VE0',
+165 silly get     vary: 'Accept-Encoding' } ]
+166 verbose etag https://registry.npmjs.org/grunt-contrib-sass from cache
+167 verbose get saving grunt-contrib-sass to /Users/alanleonard/.npm/registry.npmjs.org/grunt-contrib-sass/.cache.json
+168 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+169 http 304 https://registry.npmjs.org/grunt-bower-task
+170 verbose headers { date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+170 verbose headers   via: '1.1 varnish',
+170 verbose headers   'cache-control': 'max-age=300',
+170 verbose headers   etag: 'W/"583ec451-68cc"',
+170 verbose headers   age: '0',
+170 verbose headers   connection: 'keep-alive',
+170 verbose headers   'x-served-by': 'cache-lhr6334-LHR',
+170 verbose headers   'x-cache': 'HIT',
+170 verbose headers   'x-cache-hits': '1',
+170 verbose headers   'x-timer': 'S1484168392.664651,VS0,VE17',
+170 verbose headers   vary: 'Accept-Encoding' }
+171 silly get cb [ 304,
+171 silly get   { date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+171 silly get     via: '1.1 varnish',
+171 silly get     'cache-control': 'max-age=300',
+171 silly get     etag: 'W/"583ec451-68cc"',
+171 silly get     age: '0',
+171 silly get     connection: 'keep-alive',
+171 silly get     'x-served-by': 'cache-lhr6334-LHR',
+171 silly get     'x-cache': 'HIT',
+171 silly get     'x-cache-hits': '1',
+171 silly get     'x-timer': 'S1484168392.664651,VS0,VE17',
+171 silly get     vary: 'Accept-Encoding' } ]
+172 verbose etag https://registry.npmjs.org/grunt-bower-task from cache
+173 verbose get saving grunt-bower-task to /Users/alanleonard/.npm/registry.npmjs.org/grunt-bower-task/.cache.json
+174 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+175 silly addNameTag next cb for grunt-contrib-copy with tag latest
+176 silly addNamed grunt-contrib-copy@1.0.0
+177 verbose addNamed "1.0.0" is a plain semver version for grunt-contrib-copy
+178 http 200 https://registry.npmjs.org/grunt-contrib-watch
+179 verbose headers { server: 'nginx/1.10.1',
+179 verbose headers   'content-type': 'application/json',
+179 verbose headers   'last-modified': 'Tue, 10 Jan 2017 10:08:10 GMT',
+179 verbose headers   etag: 'W/"5874b28a-fb5c"',
+179 verbose headers   'content-encoding': 'gzip',
+179 verbose headers   'cache-control': 'max-age=300',
+179 verbose headers   'content-length': '12542',
+179 verbose headers   'accept-ranges': 'bytes',
+179 verbose headers   date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+179 verbose headers   via: '1.1 varnish',
+179 verbose headers   age: '110',
+179 verbose headers   connection: 'keep-alive',
+179 verbose headers   'x-served-by': 'cache-lhr6336-LHR',
+179 verbose headers   'x-cache': 'HIT',
+179 verbose headers   'x-cache-hits': '1',
+179 verbose headers   'x-timer': 'S1484168392.659352,VS0,VE8',
+179 verbose headers   vary: 'Accept-Encoding' }
+180 silly get cb [ 200,
+180 silly get   { server: 'nginx/1.10.1',
+180 silly get     'content-type': 'application/json',
+180 silly get     'last-modified': 'Tue, 10 Jan 2017 10:08:10 GMT',
+180 silly get     etag: 'W/"5874b28a-fb5c"',
+180 silly get     'content-encoding': 'gzip',
+180 silly get     'cache-control': 'max-age=300',
+180 silly get     'content-length': '12542',
+180 silly get     'accept-ranges': 'bytes',
+180 silly get     date: 'Wed, 11 Jan 2017 20:59:52 GMT',
+180 silly get     via: '1.1 varnish',
+180 silly get     age: '110',
+180 silly get     connection: 'keep-alive',
+180 silly get     'x-served-by': 'cache-lhr6336-LHR',
+180 silly get     'x-cache': 'HIT',
+180 silly get     'x-cache-hits': '1',
+180 silly get     'x-timer': 'S1484168392.659352,VS0,VE8',
+180 silly get     vary: 'Accept-Encoding' } ]
+181 verbose get saving grunt-contrib-watch to /Users/alanleonard/.npm/registry.npmjs.org/grunt-contrib-watch/.cache.json
+182 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+183 silly addNameTag next cb for grunt-contrib-uglify with tag latest
+184 silly addNamed grunt-contrib-uglify@2.0.0
+185 verbose addNamed "2.0.0" is a plain semver version for grunt-contrib-uglify
+186 silly addNameTag next cb for grunt-contrib-sass with tag latest
+187 silly addNamed grunt-contrib-sass@1.0.0
+188 verbose addNamed "1.0.0" is a plain semver version for grunt-contrib-sass
+189 silly addNameTag next cb for grunt-include-replace with tag latest
+190 silly addNamed grunt-include-replace@5.0.0
+191 verbose addNamed "5.0.0" is a plain semver version for grunt-include-replace
+192 silly addNameTag next cb for grunt-bower-task with tag latest
+193 silly addNamed grunt-bower-task@0.4.0
+194 verbose addNamed "0.4.0" is a plain semver version for grunt-bower-task
+195 silly addNameTag next cb for grunt-contrib-watch with tag latest
+196 silly addNamed grunt-contrib-watch@1.0.0
+197 verbose addNamed "1.0.0" is a plain semver version for grunt-contrib-watch
+198 silly cache afterAdd grunt-contrib-copy@1.0.0
+199 verbose afterAdd /Users/alanleonard/.npm/grunt-contrib-copy/1.0.0/package/package.json not in flight; writing
+200 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+201 silly cache afterAdd grunt-contrib-sass@1.0.0
+202 verbose afterAdd /Users/alanleonard/.npm/grunt-contrib-sass/1.0.0/package/package.json not in flight; writing
+203 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+204 silly cache afterAdd grunt-contrib-uglify@2.0.0
+205 verbose afterAdd /Users/alanleonard/.npm/grunt-contrib-uglify/2.0.0/package/package.json not in flight; writing
+206 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+207 verbose afterAdd /Users/alanleonard/.npm/grunt-contrib-copy/1.0.0/package/package.json written
+208 info already installed grunt-contrib-copy@1.0.0
+209 silly cache afterAdd grunt-include-replace@5.0.0
+210 verbose afterAdd /Users/alanleonard/.npm/grunt-include-replace/5.0.0/package/package.json not in flight; writing
+211 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+212 verbose afterAdd /Users/alanleonard/.npm/grunt-contrib-uglify/2.0.0/package/package.json written
+213 info already installed grunt-contrib-uglify@2.0.0
+214 verbose afterAdd /Users/alanleonard/.npm/grunt-contrib-sass/1.0.0/package/package.json written
+215 info already installed grunt-contrib-sass@1.0.0
+216 verbose afterAdd /Users/alanleonard/.npm/grunt-include-replace/5.0.0/package/package.json written
+217 info already installed grunt-include-replace@5.0.0
+218 silly cache afterAdd grunt-bower-task@0.4.0
+219 verbose afterAdd /Users/alanleonard/.npm/grunt-bower-task/0.4.0/package/package.json not in flight; writing
+220 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+221 verbose afterAdd /Users/alanleonard/.npm/grunt-bower-task/0.4.0/package/package.json written
+222 info already installed grunt-bower-task@0.4.0
+223 silly cache afterAdd grunt-contrib-watch@1.0.0
+224 verbose afterAdd /Users/alanleonard/.npm/grunt-contrib-watch/1.0.0/package/package.json not in flight; writing
+225 verbose correctMkdir /Users/alanleonard/.npm correctMkdir not in flight; initializing
+226 verbose afterAdd /Users/alanleonard/.npm/grunt-contrib-watch/1.0.0/package/package.json written
+227 info already installed grunt-contrib-watch@1.0.0
+228 silly install resolved []
+229 info build /Users/alanleonard/Documents/work/EPA/finish
+230 info linkStuff @0.1.0
+231 silly linkStuff @0.1.0 has /Users/alanleonard/Documents/work/EPA as its parent node_modules
+232 verbose linkBins @0.1.0
+233 verbose linkMans @0.1.0
+234 verbose rebuildBundles @0.1.0
+235 verbose rebuildBundles [ '.bin',
+235 verbose rebuildBundles   'grunt',
+235 verbose rebuildBundles   'grunt-bower-task',
+235 verbose rebuildBundles   'grunt-contrib-copy',
+235 verbose rebuildBundles   'grunt-contrib-sass',
+235 verbose rebuildBundles   'grunt-contrib-uglify',
+235 verbose rebuildBundles   'grunt-contrib-watch',
+235 verbose rebuildBundles   'grunt-express',
+235 verbose rebuildBundles   'grunt-include-replace',
+235 verbose rebuildBundles   'jquery-validation' ]
+236 info install @0.1.0
+237 info postinstall @0.1.0
+238 info prepublish @0.1.0
+239 verbose validateInstall loading /Users/alanleonard/Documents/work/EPA/finish/package.json for validation
+240 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+240 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+240 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+240 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+240 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+240 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+240 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+240 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+240 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+240 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+240 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+241 verbose cwd /Users/alanleonard/Documents/work/EPA/finish
+242 error Darwin 16.1.0
+243 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+244 error node v4.5.0
+245 error npm  v2.15.9
+246 error code EPEERINVALID
+247 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+247 error peerinvalid Peer grunt-include-replace@5.0.0 wants grunt@~0.4.4 || ^1.0.1
+247 error peerinvalid Peer grunt-contrib-sass@1.0.0 wants grunt@>=0.4.0
+247 error peerinvalid Peer grunt-express@1.4.1 wants grunt@~0.4.0
+248 verbose exit [ 1, true ]

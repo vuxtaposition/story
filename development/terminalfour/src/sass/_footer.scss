@@ -1,0 +1,43 @@
+.footer-epa {
+  background: black;
+  height: 200px;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  
+      @include media(smalltablet) {         
+       height: 200px;
+
+      }
+        @include media(largeTablet) {
+       height: 200px;
+      }
+      
+      @include media(desktop) {
+       height: 150px;
+      } 
+  .marginRight {
+    margin-right: 20px;
+
+  }
+  .fb-icon {
+    margin-top: 0;
+
+    @include media(smallTablet) {
+      margin-top: 90px;
+    }
+    @include media(largeTablet) {
+      margin-top: 90px;
+    }
+    @include media(desktop) {
+      margin-top: 90px;
+    }
+  }
+  .fb-icon:hover {
+    opacity: 0.5;
+  }
+  .logoHover:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}

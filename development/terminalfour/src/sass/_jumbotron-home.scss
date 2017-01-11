@@ -1,0 +1,86 @@
+
+.jumbo-home{
+  background: black;
+  color: white;
+  padding: 10px;
+  padding-top: 40px;
+  height: auto;
+  text-align: center;
+  padding-top: 0;
+
+    @include media(smallablet) {         
+        height:auto;
+        text-align:center;
+    }
+      @include media(largeTablet) {
+        height:auto;
+        text-align:center;
+    }
+    
+    @include media(desktop) {
+        font-size:16px;
+    }   
+
+
+
+    img {
+      width: 40%;
+      @include media(smallTablet) {
+        width: 40%;
+        clear: both;
+      }
+      @include media(largeTablet) {
+        width: 80%;
+      }
+      @include media(desktop) {
+        width: 90%;
+      }
+    }
+
+     .epa-icon {
+      width: 100px;
+      float: left;
+      padding-top: 30px;
+     }
+
+     .videoWrapper {
+      iframe {
+        width: 100%;
+        height: 290px;
+        border: none;
+        @include media(smallTablet) {
+          width: 100%;
+          height: 350px;
+        }
+        @include media(largeTablet) {
+          width: 100%;
+          height: 200px;
+        }
+        @include media(desktop) {
+          width: 100%;
+          height: 190px;
+        }
+      }
+     }
+
+
+
+}
+.videoHeading{
+  h2 {   
+    font-family:'CocogoosePro-Letterpress';
+    font-weight:bold;
+    margin-left:45px;
+
+      @include media(smallablet) {         
+
+      }
+        @include media(largeTablet) {
+
+      }
+      
+      @include media(desktop) {
+
+      }   
+  }
+}

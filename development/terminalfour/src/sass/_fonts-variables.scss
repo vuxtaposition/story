@@ -1,0 +1,221 @@
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+a:hover{
+  cursor: pointer;
+}
+// bootstrap css
+html,
+body {
+  height: 100%;
+  background-color: #f9f9f9;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  font-family:'helvetica';
+}
+p {
+  max-width: 50em;
+}
+
+ul {
+  
+  li{
+    padding-left: 0;
+  }
+}
+
+hr {
+  width: 50%;
+  margin: 3em auto;
+  border: none;
+  border-top: 1px solid #999;
+}
+
+pre,
+code {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  display: block;
+  white-space: pre-wrap;
+
+}
+.full-width {
+  width: 100%;
+}
+.topNotice{
+  font-weight:bold;
+}
+.error{
+  color:red;
+  float:right;
+  clear:both;
+}
+#replaceSteps{
+  display:none;
+}
+#tnameMessage{
+  color:red;
+  clear:both;
+  float:left;
+}
+
+.addScriptGray{
+  font-family:'Carolinea';
+  color:gray;
+  font-size:35px;
+      line-height: 35px;
+}
+.addScript{
+  font-family:'Sunrise International';
+  color:$orangeColor;
+  font-size: 26px;
+  line-height: 18px;
+}
+
+.code-example {
+  border-radius: .25em;
+  padding-left: 2em;
+  border: 1px solid rgba(189, 177, 104, .8);
+  background-color: rgba(250, 250, 250, .7);
+}
+.authorText{
+  font-size:12px;
+}
+.example-box {
+  padding: 1em .75em;
+  background-color: rgba(236,236,236, 1);
+  border: 1px solid rgba(220, 198, 224, .9);
+  border-radius: .25em;
+  margin-bottom: 2em;
+}
+
+#congrat-message {
+  text-align: center;
+}
+
+.example-title {
+  font-weight: bold;
+}
+
+.code-text {
+  background-color: rgba(250, 250, 250, .7);
+  border: 1px solid rgba(189, 177, 104, .8);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.centerText{
+  text-align:center;
+}
+
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 50em) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+   padding-right: 0;
+   padding-left: 0;
+  }
+}
+
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  background:none;
+
+  @include media(smallTablet) {         
+    background:none;
+  }
+  @include media(largeTablet) {
+    background:none;
+  }
+    
+  @include media(desktop) {
+    background-image: url(/style-assets/images/main-bg.png);
+    background-repeat: repeat-y;
+    background-size:100%;
+    max-width: 1366px;
+  } 
+}
+
+.conditionNumber{
+  font-family: 'Carolinea';
+  color: #c4e19b;
+  font-size: 55px;
+  float: left;
+  margin-right: 10px;
+  margin-top: -20px;
+  font-weight: bold
+}
+
+// Terms List
+ol.terms {
+  list-style-type: none;
+  //list-style-type: decimal;
+     
+  margin: 0;
+  margin-left: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+     
+  counter-reset: li-counter;
+  li {
+    margin-bottom: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    min-height: 40px;
+    text-align: justify;
+    margin-top: 20px;
+
+
+    &:before {
+      font-family: 'Carolinea';
+      position: absolute;
+      top: -8px;
+      left: -55px;
+      width: 0.8em;
+       
+      font-size: 55px;
+      line-height: 1;
+      font-weight: bold;
+      text-align: right;
+      color: #c4e19b;
+   
+      content: counter(li-counter);
+      counter-increment: li-counter;
+    }
+  }
+}
+
+
+
+.seventypercent{
+  width:80%;
+}
+
+
+
+

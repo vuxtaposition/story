@@ -1,0 +1,104 @@
+.download-poster {
+  img {
+    //width: 20%;
+    @include media(smallTablet) {
+      width: 10%;
+    }
+    @include media(largeTablet) {
+      width: 10%;
+    }
+    @include media(desktop) {
+      width: 100%;
+      margin-bottom: 13px;
+    }
+  }
+}
+
+.download-number {
+  font-family:'Carolinea';
+  font-size: 120px;
+  font-weight: 800;
+  line-height: 70px;
+  color: $limeColor;
+
+  padding-right: 0;
+}
+.download-number2 {
+  @extends .download-poster;
+
+  img {
+    // width:20%; 
+    @include media(smallTablet) {
+      width: 10%;
+    }
+    @include media(largeTablet) {
+      width: 10%;
+    }
+    @include media(desktop) {
+      width: 60%;
+      margin-bottom: 13px;
+    }
+  }
+}
+
+.download-poster-text{
+  h3 {
+    font-family:'Carolinea';
+    font-size: 45px;
+    line-height: 44px;
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  p {
+    font-family: 'helvetica';
+    text-align: left;
+    height:auto;
+  }
+
+}
+
+.upfontSize {
+  p{
+    font-size:18px !important;
+  }
+}
+
+.download-poster-outer{ 
+ 
+  text-align: center;
+  margin-top:30px;
+
+  @include media(smallTablet) {         
+
+      text-align: center;
+      margin-top:30px;
+    }
+  @include media(largeTablet) {
+  
+      text-align: center;
+      margin-top:30px;
+    }
+    
+  @include media(desktop) {
+      text-align: center;
+      margin-top:30px;
+      float:left;
+      clear:right;
+    }
+
+  a {
+     text-align: center;
+    float: none;
+ 
+  @include media(smallTablet) {           
+      text-align: center;
+      float: none;
+  }
+  
+  @include media(largeTablet) {        
+      text-align: center;
+      float:none;
+      }
+    }
+}

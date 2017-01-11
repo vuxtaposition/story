@@ -1,0 +1,89 @@
+
+.btn-epa {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+    border-radius: 0px ;
+    margin-top: 16px; 
+    margin-bottom: 16px;
+    font-weight:bold;
+    padding:10px;
+
+    @include media(smalltablet) {         
+        min-width:50%;
+    }
+      @include media(largeTablet) {
+        min-width:50%;
+    }
+    
+    @include media(desktop) {
+        min-width: 40%;
+        font-size:16px;
+    }
+
+    &:hover{
+        color:lightgray;
+        background-color:#474747;
+        border-color: #474747;
+      }      
+}
+
+
+.btn-epa-white {
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-radius: 0px ;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    font-weight:bold;
+    clear:both;
+    float:none;
+    width: 70%;
+    text-align: left;
+    font-size:16px;
+    padding:10px;
+    text-align:center;
+
+    @include media(smallTablet) {         
+        float: none;
+        text-align: center;
+    }
+    @include media(largeTablet) {
+        float: none;
+        text-align: center;
+        min-width:90%;
+    }
+    
+    @include media(desktop) {
+        min-width:100%;
+    }  
+    &:hover{
+        color:lightgray;
+        background-color:#474747;
+        border-color: #474747;
+      }
+}
+
+.btn-epa-boxed {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+  border-radius: 0px ;
+  margin-top: 16px; 
+  margin-bottom: 16px;
+  font-weight:bold;
+  font-size:12px;
+  padding:10px;
+
+  @include media(largeTablet) {
+    font-size: 16px;
+  }   
+
+
+  &:hover{
+    color:lightgray;
+    background-color:#474747;
+    border-color: #474747;
+  }
+}
